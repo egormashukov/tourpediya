@@ -23,7 +23,7 @@
         %a.navbar-brand(href='#')
         .navbar-collapse.collapse.navbar-responsive-collapse
           %ul.nav.navbar-nav
-            %li= link_to 'Cities', root_path
+            %li= link_to 'Home', root_path
 
     .container
       .row
@@ -31,7 +31,3 @@
           = bootstrap_flash
           = yield
         = yield :sidebar
-      %footer
-        %p
-          &copy; Company
-          = Date.today.year

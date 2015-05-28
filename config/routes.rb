@@ -1,14 +1,14 @@
 Rails.application.routes.draw do
 
+  mount Ckeditor::Engine => '/ckeditor'
   devise_for :users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
-  mount Ckeditor::Engine => '/ckeditor'
 
-  resources :cities
-  resources :excursions do
+  resources :categories, only: [:show]
+  resources :cities, only: [:index, :show]
+  resources :excursions, only: [:update, :show] do
     patch :unview, on: :member
   end
-  resources :categories
 
   root to: 'cities#index'
 end

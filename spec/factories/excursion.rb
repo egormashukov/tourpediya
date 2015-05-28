@@ -1,6 +1,9 @@
 FactoryGirl.define do
+  sequence :title do |i|
+    "Excursion #{i}"
+  end
   factory :excursion do
-    title { Faker::Lorem.sentence }
+    title
     description { Faker::Lorem.sentence }
     city
 

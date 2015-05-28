@@ -4,9 +4,8 @@ ActiveAdmin.register_page 'Description' do
 
   content title: proc{ I18n.t('active_admin.description') } do
     excursion = Excursion.empty_description.first
-    h3 "Edit Description for: #{excursion.title}"
-
     if excursion.present?
+      h3 "Edit Description for: #{excursion.title}"
       form_for excursion do |f|
         f.text_area :description
         f.submit

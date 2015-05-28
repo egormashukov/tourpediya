@@ -3,7 +3,7 @@ class Excursion < ActiveRecord::Base
   belongs_to :city
 
   scope :viewed, -> { where(viewed: true) }
-  scope :without, ->(id) { where('id <> ?', id) }
+  scope :without, ->(id) { where.not(id: id) }
   scope :empty_description, -> { where(description: nil) }
 
   has_many :excursion_categories, dependent: :destroy

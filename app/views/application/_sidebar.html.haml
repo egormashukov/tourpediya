@@ -1,13 +1,10 @@
 = content_for :sidebar do
   .col-lg-3
     .well.sidebar-nav
-      %h3 Viwed excursions
+      %h3= t('.viewed_excursions')
       %table
         - if @viewed_excursions.any?
-          - @viewed_excursions.each do |excursion|
-            %tr
-              %td= link_to 'Unview', unview_excursion_path(excursion), method: :patch, class: 'btn btn-danger'
-              %td= link_to excursion.title, excursion
+          = render partial: 'viewed_excursion', collection: @viewed_excursions, as: :excursion
         - else
           %tr
             %td= t('.no_viewed_excursions')

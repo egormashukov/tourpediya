@@ -4,3 +4,5 @@ en:
   city: 'City'
   excursion: 'Excursion'
   no_viewed_excursions: 'No viewed excursions'
+  viewed_excursions: 'Viewed excursions'
+  unview: 'Unview'
