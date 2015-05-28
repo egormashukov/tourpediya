@@ -1,0 +1,12 @@
+.page-header
+  %h1= t '.cities'
+
+%table.table.table-striped
+  %tbody
+    - @cities.each do |city|
+      %tr
+        %td
+          %b= link_to city.name, city
+      - city.index_excursions.each do |excursion|
+        %tr
+          %td= link_to excursion.title, excursion

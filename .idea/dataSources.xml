@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1048010720">
+    <data-source source="LOCAL" name="Rails tourpediya: development" uuid="f18d2405-18a2-4297-8a2f-97f55efe5fa8">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:tourpediya_development</jdbc-url>
+      <user-name>tourpediya_user</user-name>
+      <user-password>dfd9dfcfdfc9dfd8dfcfdfde</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails tourpediya: test" uuid="4de46514-c546-41f0-a8c1-053ebd6f868f">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:tourpediya_test</jdbc-url>
+      <user-name>tourpediya_user</user-name>
+      <user-password>dfd9dfcfdfc9dfd8dfcfdfde</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails tourpediya: production" uuid="e310c384-76c1-4c90-bc53-7d2a049f6063">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:tourpediya_production</jdbc-url>
+      <user-name>tourpediya</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffedfe5dfffdff8dffadfefdfeedfe3dff3dfebdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

@@ -1,0 +1,4 @@
+en:
+  active_admin:
+    description: 'Description'
+    no_excursions: 'No excursions without descriptions.'

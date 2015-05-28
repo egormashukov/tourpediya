@@ -1,0 +1,8 @@
+= page_header '.category', @category.name
+
+%table.table.table-striped
+  %tbody
+    - @excursions.each do |excursion|
+      %tr
+        %td= link_to excursion.title, excursion
+

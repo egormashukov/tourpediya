@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails tourpediya: development" uuid="f18d2405-18a2-4297-8a2f-97f55efe5fa8">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails tourpediya: test" uuid="4de46514-c546-41f0-a8c1-053ebd6f868f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails tourpediya: production" uuid="e310c384-76c1-4c90-bc53-7d2a049f6063">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

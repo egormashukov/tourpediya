@@ -1,0 +1,11 @@
+= page_header '.city', @city.name
+
+%table.table.table-striped
+  %tbody
+    - @excursions.each do |excursion|
+      %tr
+        %td
+          %b= link_to excursion.title, excursion
+          - excursion.categories.each do |category|
+            = link_to category.name, category, class: 'btn btn-default btn-xs'
+

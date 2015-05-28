@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  username: tourpediya_user
+  password: secret
+  pool: 5
+  timeout: 5000
+  encoding: unicode
+
+development:
+  <<: *default
+  database: tourpediya_development
+
+test:
+  <<: *default
+  database: tourpediya_test
